@@ -1,4 +1,6 @@
 class PagesController < ApplicationController
+  render :layout => 'application'
+  
   def home
     @title = "Home"
   end
